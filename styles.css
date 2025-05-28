@@ -1,0 +1,46 @@
+body{
+    background-color: blanchedalmond;
+}
+
+div{
+    display:flex;    /* un elemento va a lado de otro elemento */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    border-radius: 10%;
+    border: 5px solid;
+    font-style: italic;
+}
+
+.card{
+    padding: 10px;
+    width: 150px;
+    height: 200px;
+    border-radius: 10%;
+    border: 8px solid;
+    margin:  5px;
+    text-align: center;
+
+}
+.card img{
+    width: 100px;
+    height: 100px;
+}
+
+/* media querys sirve para definir tamaños de pantallas, y se dan estilos*/
+@media (min-width: 600px) {
+    .card {
+        background-color: black;
+    }
+}
+
+@media (min-width: 900px) {
+    .card {
+        background-color: firebrick;
+    }
+}
