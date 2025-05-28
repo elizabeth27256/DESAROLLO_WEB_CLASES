@@ -4,8 +4,8 @@ body{
 
 div{
     display:flex;    /* un elemento va a lado de otro elemento */
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column; /* Define si es fila (row )o columna (column)  */
+    justify-content: flex-start; /* Distribuye los elementos en el eje principal*/
     align-items: center;
 }
 
